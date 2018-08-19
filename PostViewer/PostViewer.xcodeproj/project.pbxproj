@@ -45,9 +45,6 @@
 		91809851212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
 		91809852212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
 		91809853212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
-		91809860212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
-		91809861212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
-		91809862212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
 		918098652128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
 		918098662128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
 		918098672128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
@@ -68,6 +65,12 @@
 		9180988A212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
 		9180988B212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
 		9180988C212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
+		9180988E2129AA1B0002C5E1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988D2129AA1B0002C5E1 /* CoreDataStack.swift */; };
+		9180988F2129AA1B0002C5E1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988D2129AA1B0002C5E1 /* CoreDataStack.swift */; };
+		918098902129AA1B0002C5E1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988D2129AA1B0002C5E1 /* CoreDataStack.swift */; };
+		918098982129B7080002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098972129B7080002C5E1 /* Post.swift */; };
+		918098992129B7080002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098972129B7080002C5E1 /* Post.swift */; };
+		9180989A2129B7080002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098972129B7080002C5E1 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +113,6 @@
 		91809844212845810002C5E1 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
 		9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocol.swift; sourceTree = "<group>"; };
 		91809850212845BA0002C5E1 /* PostListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListWireframe.swift; sourceTree = "<group>"; };
-		9180985F212854C90002C5E1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		918098642128600B0002C5E1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		9180986B21287B040002C5E1 /* PostDetailWireframeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWireframeMock.swift; sourceTree = "<group>"; };
 		9180986D21287B710002C5E1 /* PostDetailViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewMock.swift; sourceTree = "<group>"; };
@@ -123,6 +125,8 @@
 		9180987F212929A90002C5E1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		9180988121292B3E0002C5E1 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		91809889212941EB0002C5E1 /* PostViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostViewer.xcdatamodel; sourceTree = "<group>"; };
+		9180988D2129AA1B0002C5E1 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		918098972129B7080002C5E1 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9180981521283E990002C5E1 /* AppDelegate.swift */,
-				9180985E212854B40002C5E1 /* Model */,
+				918098962129B7080002C5E1 /* Model */,
 				91809831212840EA0002C5E1 /* Services */,
 				9180981321283E990002C5E1 /* Features */,
 				9180986321285FF10002C5E1 /* Shared */,
@@ -255,20 +259,13 @@
 			path = PostDetail;
 			sourceTree = "<group>";
 		};
-		9180985E212854B40002C5E1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9180985F212854C90002C5E1 /* Post.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		9180986321285FF10002C5E1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				918098642128600B0002C5E1 /* BaseView.swift */,
 				9180987F212929A90002C5E1 /* Reachability.swift */,
 				9180988121292B3E0002C5E1 /* ReachabilityManager.swift */,
+				9180988D2129AA1B0002C5E1 /* CoreDataStack.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +298,14 @@
 				9180986F21287BB30002C5E1 /* PostDetailPresenterTest.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		918098962129B7080002C5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				918098972129B7080002C5E1 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,14 +443,15 @@
 				9180982E212840870002C5E1 /* PostListInteractor.swift in Sources */,
 				9180982221283F8A0002C5E1 /* PostListView.swift in Sources */,
 				91809851212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
+				918098982129B7080002C5E1 /* Post.swift in Sources */,
 				9180988221292B3E0002C5E1 /* ReachabilityManager.swift in Sources */,
 				91809845212845810002C5E1 /* PostDetailPresenter.swift in Sources */,
-				91809860212854C90002C5E1 /* Post.swift in Sources */,
 				9180988A212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
 				9180982A212840120002C5E1 /* PostListProtocol.swift in Sources */,
 				9180981921283E990002C5E1 /* AppDelegate.swift in Sources */,
 				9180983D2128455E0002C5E1 /* PostDetailView.swift in Sources */,
 				9180982621283FF90002C5E1 /* PostListPresenter.swift in Sources */,
+				9180988E2129AA1B0002C5E1 /* CoreDataStack.swift in Sources */,
 				91809833212840EA0002C5E1 /* PostServices.swift in Sources */,
 				918098652128600B0002C5E1 /* BaseView.swift in Sources */,
 				918098412128456E0002C5E1 /* PostDetailWireframe.swift in Sources */,
@@ -466,7 +472,6 @@
 				9180987021287BB30002C5E1 /* PostDetailPresenterTest.swift in Sources */,
 				9180982721283FF90002C5E1 /* PostListPresenter.swift in Sources */,
 				91809834212840EA0002C5E1 /* PostServices.swift in Sources */,
-				91809861212854C90002C5E1 /* Post.swift in Sources */,
 				91809878212889F80002C5E1 /* PostListPresenterTest.swift in Sources */,
 				9180988321292EFB0002C5E1 /* ReachabilityManager.swift in Sources */,
 				9180983E2128455E0002C5E1 /* PostDetailView.swift in Sources */,
@@ -475,7 +480,9 @@
 				9180988B212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
 				9180982321283F8A0002C5E1 /* PostListView.swift in Sources */,
 				91809872212887740002C5E1 /* XCTestExpectation+Convenience.swift in Sources */,
+				918098992129B7080002C5E1 /* Post.swift in Sources */,
 				91809874212889420002C5E1 /* PostListWireframeMock.swift in Sources */,
+				9180988F2129AA1B0002C5E1 /* CoreDataStack.swift in Sources */,
 				91809846212845810002C5E1 /* PostDetailPresenter.swift in Sources */,
 				9180982B212840120002C5E1 /* PostListProtocol.swift in Sources */,
 				91809852212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
@@ -492,10 +499,10 @@
 				91809830212840870002C5E1 /* PostListInteractor.swift in Sources */,
 				918098432128456E0002C5E1 /* PostDetailWireframe.swift in Sources */,
 				9180988C212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
+				918098902129AA1B0002C5E1 /* CoreDataStack.swift in Sources */,
 				9180982821283FF90002C5E1 /* PostListPresenter.swift in Sources */,
 				91809835212840EA0002C5E1 /* PostServices.swift in Sources */,
 				91809885212939770002C5E1 /* ReachabilityManager.swift in Sources */,
-				91809862212854C90002C5E1 /* Post.swift in Sources */,
 				9180983F2128455E0002C5E1 /* PostDetailView.swift in Sources */,
 				9180981B21283E990002C5E1 /* AppDelegate.swift in Sources */,
 				9180982421283F8A0002C5E1 /* PostListView.swift in Sources */,
@@ -504,6 +511,7 @@
 				91809853212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
 				918098672128600B0002C5E1 /* BaseView.swift in Sources */,
 				9180984F2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */,
+				9180989A2129B7080002C5E1 /* Post.swift in Sources */,
 				91809886212939820002C5E1 /* Reachability.swift in Sources */,
 				918097FC21283E0E0002C5E1 /* PostViewerUITests.swift in Sources */,
 			);

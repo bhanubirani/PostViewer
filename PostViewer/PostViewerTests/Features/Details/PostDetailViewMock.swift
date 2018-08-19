@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import PostViewer
 
 class PostDetailViewMock: PostDetailViewProtocol {
     var presenter: PostDetailPresenterProtocol?

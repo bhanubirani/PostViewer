@@ -7,6 +7,7 @@
 //
 
 import UIKit
+@testable import PostViewer
 
 class PostListInteractorMock: PostListInteractorProtocol {
     var presenter: PostListInteractorOutputProtocol?

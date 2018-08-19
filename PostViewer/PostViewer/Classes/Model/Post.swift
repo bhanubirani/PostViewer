@@ -13,8 +13,5 @@ class Post {
     var title: String = ""
     var body: String = ""
     
-    init(withDict dict: [String: AnyObject]) {
-        title = dict["title"] as? String ?? ""
-        body = dict["body"] as? String ?? ""
-    }
+    init() {}
 }

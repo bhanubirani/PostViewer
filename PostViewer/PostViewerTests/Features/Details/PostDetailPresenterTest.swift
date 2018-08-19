@@ -31,7 +31,7 @@ class PostDetailPresenterTest: XCTestCase {
         }
         
         viewMock.expectations.append(expectation(description: "updateView(fromPost:)"))
-        testPresenter.post = Post(withDict: ["key" : "value" as AnyObject])
+        testPresenter.post = Post()
         testPresenter.viewDidLoad()
         wait(for: viewMock.expectations, timeout: 5.0)
     }

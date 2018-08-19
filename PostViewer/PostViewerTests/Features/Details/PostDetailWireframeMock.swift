@@ -7,6 +7,7 @@
 //
 
 import UIKit
+@testable import PostViewer
 
 class PostDetailWireframeMock: PostDetailWireframeProtocol {
     var presenter: PostDetailPresenterProtocol?

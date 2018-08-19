@@ -7,8 +7,10 @@
 //
 
 import XCTest
+@testable import PostViewer
 
 class PostListViewMock: PostListViewProtocol {
+    
     var presenter: PostListPresenterProtocol?
     var expectations = [XCTestExpectation]()
     
@@ -20,5 +22,7 @@ class PostListViewMock: PostListViewProtocol {
         XCTestExpectation.fulfill(with: #function, from: expectations)
     }
     
-
+    func showAlertView(message: String, title: GSMType) {
+        XCTestExpectation.fulfill(with: #function, from: expectations)
+    }
 }

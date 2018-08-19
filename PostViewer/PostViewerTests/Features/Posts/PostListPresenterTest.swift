@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import PostViewer
 
 class PostListPresenterTest: XCTestCase {
 
@@ -46,7 +47,7 @@ class PostListPresenterTest: XCTestCase {
         }
         
         wireframeMock.expectations.append(expectation(description: "presentPostDetailModule(withPost:)"))
-        testPresenter.userDidSelect(post: Post(withDict: ["key" : "value" as AnyObject]))
+        testPresenter.userDidSelect(post: Post())
         wait(for: wireframeMock.expectations, timeout: 5.0)
     }
     
@@ -57,7 +58,7 @@ class PostListPresenterTest: XCTestCase {
         }
         viewMock.expectations.append(expectation(description: "activityIndicator(enabled:)"))
         viewMock.expectations.append(expectation(description: "updatePosts(posts:)"))
-        testPresenter.getPostListSuccess([Post(withDict: ["key" : "value" as AnyObject])])
+        testPresenter.getPostListSuccess([Post()])
         wait(for: viewMock.expectations, timeout: 5.0)
     }
     
