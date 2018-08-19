@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		918097E121283E080002C5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918097DF21283E080002C5E1 /* Main.storyboard */; };
+		918097E321283E0D0002C5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918097E221283E0D0002C5E1 /* Assets.xcassets */; };
+		918097E621283E0D0002C5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918097E421283E0D0002C5E1 /* LaunchScreen.storyboard */; };
+		918097F121283E0E0002C5E1 /* PostViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918097F021283E0E0002C5E1 /* PostViewerTests.swift */; };
+		918097FC21283E0E0002C5E1 /* PostViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918097FB21283E0E0002C5E1 /* PostViewerUITests.swift */; };
+		9180981921283E990002C5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180981521283E990002C5E1 /* AppDelegate.swift */; };
+		9180981A21283E990002C5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180981521283E990002C5E1 /* AppDelegate.swift */; };
+		9180981B21283E990002C5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180981521283E990002C5E1 /* AppDelegate.swift */; };
+		9180982221283F8A0002C5E1 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982121283F890002C5E1 /* PostListView.swift */; };
+		9180982321283F8A0002C5E1 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982121283F890002C5E1 /* PostListView.swift */; };
+		9180982421283F8A0002C5E1 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982121283F890002C5E1 /* PostListView.swift */; };
+		9180982621283FF90002C5E1 /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982521283FF90002C5E1 /* PostListPresenter.swift */; };
+		9180982721283FF90002C5E1 /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982521283FF90002C5E1 /* PostListPresenter.swift */; };
+		9180982821283FF90002C5E1 /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982521283FF90002C5E1 /* PostListPresenter.swift */; };
+		9180982A212840120002C5E1 /* PostListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809829212840120002C5E1 /* PostListProtocol.swift */; };
+		9180982B212840120002C5E1 /* PostListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809829212840120002C5E1 /* PostListProtocol.swift */; };
+		9180982C212840120002C5E1 /* PostListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809829212840120002C5E1 /* PostListProtocol.swift */; };
+		9180982E212840870002C5E1 /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982D212840870002C5E1 /* PostListInteractor.swift */; };
+		9180982F212840870002C5E1 /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982D212840870002C5E1 /* PostListInteractor.swift */; };
+		91809830212840870002C5E1 /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180982D212840870002C5E1 /* PostListInteractor.swift */; };
+		91809833212840EA0002C5E1 /* PostServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809832212840EA0002C5E1 /* PostServices.swift */; };
+		91809834212840EA0002C5E1 /* PostServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809832212840EA0002C5E1 /* PostServices.swift */; };
+		91809835212840EA0002C5E1 /* PostServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809832212840EA0002C5E1 /* PostServices.swift */; };
+		9180983D2128455E0002C5E1 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180983C2128455E0002C5E1 /* PostDetailView.swift */; };
+		9180983E2128455E0002C5E1 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180983C2128455E0002C5E1 /* PostDetailView.swift */; };
+		9180983F2128455E0002C5E1 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180983C2128455E0002C5E1 /* PostDetailView.swift */; };
+		918098412128456E0002C5E1 /* PostDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098402128456E0002C5E1 /* PostDetailWireframe.swift */; };
+		918098422128456E0002C5E1 /* PostDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098402128456E0002C5E1 /* PostDetailWireframe.swift */; };
+		918098432128456E0002C5E1 /* PostDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098402128456E0002C5E1 /* PostDetailWireframe.swift */; };
+		91809845212845810002C5E1 /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809844212845810002C5E1 /* PostDetailPresenter.swift */; };
+		91809846212845810002C5E1 /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809844212845810002C5E1 /* PostDetailPresenter.swift */; };
+		91809847212845810002C5E1 /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809844212845810002C5E1 /* PostDetailPresenter.swift */; };
+		9180984D2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */; };
+		9180984E2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */; };
+		9180984F2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */; };
+		91809851212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
+		91809852212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
+		91809853212845BA0002C5E1 /* PostListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809850212845BA0002C5E1 /* PostListWireframe.swift */; };
+		91809860212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
+		91809861212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
+		91809862212854C90002C5E1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180985F212854C90002C5E1 /* Post.swift */; };
+		918098652128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
+		918098662128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
+		918098672128600B0002C5E1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098642128600B0002C5E1 /* BaseView.swift */; };
+		9180986C21287B040002C5E1 /* PostDetailWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180986B21287B040002C5E1 /* PostDetailWireframeMock.swift */; };
+		9180986E21287B710002C5E1 /* PostDetailViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180986D21287B710002C5E1 /* PostDetailViewMock.swift */; };
+		9180987021287BB30002C5E1 /* PostDetailPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180986F21287BB30002C5E1 /* PostDetailPresenterTest.swift */; };
+		91809872212887740002C5E1 /* XCTestExpectation+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809871212887740002C5E1 /* XCTestExpectation+Convenience.swift */; };
+		91809874212889420002C5E1 /* PostListWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809873212889420002C5E1 /* PostListWireframeMock.swift */; };
+		918098762128897B0002C5E1 /* PostListViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918098752128897B0002C5E1 /* PostListViewMock.swift */; };
+		91809878212889F80002C5E1 /* PostListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91809877212889F80002C5E1 /* PostListPresenterTest.swift */; };
+		9180987A21288AC00002C5E1 /* PostListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180987921288AC00002C5E1 /* PostListInteractorMock.swift */; };
+		91809880212929AA0002C5E1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180987F212929A90002C5E1 /* Reachability.swift */; };
+		9180988221292B3E0002C5E1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988121292B3E0002C5E1 /* ReachabilityManager.swift */; };
+		9180988321292EFB0002C5E1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988121292B3E0002C5E1 /* ReachabilityManager.swift */; };
+		9180988421292F180002C5E1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180987F212929A90002C5E1 /* Reachability.swift */; };
+		91809885212939770002C5E1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180988121292B3E0002C5E1 /* ReachabilityManager.swift */; };
+		91809886212939820002C5E1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180987F212929A90002C5E1 /* Reachability.swift */; };
+		9180988A212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
+		9180988B212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
+		9180988C212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918097ED21283E0E0002C5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918097D021283E080002C5E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918097D721283E080002C5E1;
+			remoteInfo = PostViewer;
+		};
+		918097F821283E0E0002C5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918097D021283E080002C5E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918097D721283E080002C5E1;
+			remoteInfo = PostViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		918097D821283E080002C5E1 /* PostViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918097E021283E080002C5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		918097E221283E0D0002C5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918097E521283E0D0002C5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		918097E721283E0D0002C5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918097EC21283E0E0002C5E1 /* PostViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918097F021283E0E0002C5E1 /* PostViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewerTests.swift; sourceTree = "<group>"; };
+		918097F221283E0E0002C5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918097F721283E0E0002C5E1 /* PostViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918097FB21283E0E0002C5E1 /* PostViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewerUITests.swift; sourceTree = "<group>"; };
+		918097FD21283E0E0002C5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9180981521283E990002C5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9180982121283F890002C5E1 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		9180982521283FF90002C5E1 /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		91809829212840120002C5E1 /* PostListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocol.swift; sourceTree = "<group>"; };
+		9180982D212840870002C5E1 /* PostListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		91809832212840EA0002C5E1 /* PostServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostServices.swift; sourceTree = "<group>"; };
+		9180983C2128455E0002C5E1 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		918098402128456E0002C5E1 /* PostDetailWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWireframe.swift; sourceTree = "<group>"; };
+		91809844212845810002C5E1 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocol.swift; sourceTree = "<group>"; };
+		91809850212845BA0002C5E1 /* PostListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListWireframe.swift; sourceTree = "<group>"; };
+		9180985F212854C90002C5E1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		918098642128600B0002C5E1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		9180986B21287B040002C5E1 /* PostDetailWireframeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWireframeMock.swift; sourceTree = "<group>"; };
+		9180986D21287B710002C5E1 /* PostDetailViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewMock.swift; sourceTree = "<group>"; };
+		9180986F21287BB30002C5E1 /* PostDetailPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenterTest.swift; sourceTree = "<group>"; };
+		91809871212887740002C5E1 /* XCTestExpectation+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestExpectation+Convenience.swift"; sourceTree = "<group>"; };
+		91809873212889420002C5E1 /* PostListWireframeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListWireframeMock.swift; sourceTree = "<group>"; };
+		918098752128897B0002C5E1 /* PostListViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewMock.swift; sourceTree = "<group>"; };
+		91809877212889F80002C5E1 /* PostListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenterTest.swift; sourceTree = "<group>"; };
+		9180987921288AC00002C5E1 /* PostListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractorMock.swift; sourceTree = "<group>"; };
+		9180987F212929A90002C5E1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9180988121292B3E0002C5E1 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		91809889212941EB0002C5E1 /* PostViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostViewer.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918097D521283E080002C5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097E921283E0E0002C5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097F421283E0E0002C5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		918097CF21283E080002C5E1 = {
+			isa = PBXGroup;
+			children = (
+				918097DA21283E080002C5E1 /* PostViewer */,
+				918097EF21283E0E0002C5E1 /* PostViewerTests */,
+				918097FA21283E0E0002C5E1 /* PostViewerUITests */,
+				918097D921283E080002C5E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918097D921283E080002C5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918097D821283E080002C5E1 /* PostViewer.app */,
+				918097EC21283E0E0002C5E1 /* PostViewerTests.xctest */,
+				918097F721283E0E0002C5E1 /* PostViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918097DA21283E080002C5E1 /* PostViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9180981221283E990002C5E1 /* Classes */,
+				918097DF21283E080002C5E1 /* Main.storyboard */,
+				918097E221283E0D0002C5E1 /* Assets.xcassets */,
+				918097E421283E0D0002C5E1 /* LaunchScreen.storyboard */,
+				918097E721283E0D0002C5E1 /* Info.plist */,
+				91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */,
+			);
+			path = PostViewer;
+			sourceTree = "<group>";
+		};
+		918097EF21283E0E0002C5E1 /* PostViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9180986821287AC20002C5E1 /* Features */,
+				918097F021283E0E0002C5E1 /* PostViewerTests.swift */,
+				91809871212887740002C5E1 /* XCTestExpectation+Convenience.swift */,
+				918097F221283E0E0002C5E1 /* Info.plist */,
+			);
+			path = PostViewerTests;
+			sourceTree = "<group>";
+		};
+		918097FA21283E0E0002C5E1 /* PostViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				918097FB21283E0E0002C5E1 /* PostViewerUITests.swift */,
+				918097FD21283E0E0002C5E1 /* Info.plist */,
+			);
+			path = PostViewerUITests;
+			sourceTree = "<group>";
+		};
+		9180981221283E990002C5E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9180981521283E990002C5E1 /* AppDelegate.swift */,
+				9180985E212854B40002C5E1 /* Model */,
+				91809831212840EA0002C5E1 /* Services */,
+				9180981321283E990002C5E1 /* Features */,
+				9180986321285FF10002C5E1 /* Shared */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9180981321283E990002C5E1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9180983B2128454A0002C5E1 /* PostDetail */,
+				9180981C21283EEA0002C5E1 /* Posts */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9180981C21283EEA0002C5E1 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				91809850212845BA0002C5E1 /* PostListWireframe.swift */,
+				9180982121283F890002C5E1 /* PostListView.swift */,
+				9180982521283FF90002C5E1 /* PostListPresenter.swift */,
+				9180982D212840870002C5E1 /* PostListInteractor.swift */,
+				91809829212840120002C5E1 /* PostListProtocol.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		91809831212840EA0002C5E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91809832212840EA0002C5E1 /* PostServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9180983B2128454A0002C5E1 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				918098402128456E0002C5E1 /* PostDetailWireframe.swift */,
+				9180983C2128455E0002C5E1 /* PostDetailView.swift */,
+				91809844212845810002C5E1 /* PostDetailPresenter.swift */,
+				9180984C2128459E0002C5E1 /* PostDetailProtocol.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		9180985E212854B40002C5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9180985F212854C90002C5E1 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9180986321285FF10002C5E1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				918098642128600B0002C5E1 /* BaseView.swift */,
+				9180987F212929A90002C5E1 /* Reachability.swift */,
+				9180988121292B3E0002C5E1 /* ReachabilityManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9180986821287AC20002C5E1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9180986921287AC20002C5E1 /* Posts */,
+				9180986A21287AC20002C5E1 /* Details */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9180986921287AC20002C5E1 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				91809873212889420002C5E1 /* PostListWireframeMock.swift */,
+				918098752128897B0002C5E1 /* PostListViewMock.swift */,
+				9180987921288AC00002C5E1 /* PostListInteractorMock.swift */,
+				91809877212889F80002C5E1 /* PostListPresenterTest.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		9180986A21287AC20002C5E1 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				9180986B21287B040002C5E1 /* PostDetailWireframeMock.swift */,
+				9180986D21287B710002C5E1 /* PostDetailViewMock.swift */,
+				9180986F21287BB30002C5E1 /* PostDetailPresenterTest.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918097D721283E080002C5E1 /* PostViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9180980021283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewer" */;
+			buildPhases = (
+				918097D421283E080002C5E1 /* Sources */,
+				918097D521283E080002C5E1 /* Frameworks */,
+				918097D621283E080002C5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostViewer;
+			productName = PostViewer;
+			productReference = 918097D821283E080002C5E1 /* PostViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		918097EB21283E0E0002C5E1 /* PostViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9180980321283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewerTests" */;
+			buildPhases = (
+				918097E821283E0E0002C5E1 /* Sources */,
+				918097E921283E0E0002C5E1 /* Frameworks */,
+				918097EA21283E0E0002C5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918097EE21283E0E0002C5E1 /* PBXTargetDependency */,
+			);
+			name = PostViewerTests;
+			productName = PostViewerTests;
+			productReference = 918097EC21283E0E0002C5E1 /* PostViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		918097F621283E0E0002C5E1 /* PostViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9180980621283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewerUITests" */;
+			buildPhases = (
+				918097F321283E0E0002C5E1 /* Sources */,
+				918097F421283E0E0002C5E1 /* Frameworks */,
+				918097F521283E0E0002C5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918097F921283E0E0002C5E1 /* PBXTargetDependency */,
+			);
+			name = PostViewerUITests;
+			productName = PostViewerUITests;
+			productReference = 918097F721283E0E0002C5E1 /* PostViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918097D021283E080002C5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Birani, Bhanu Prakash";
+				TargetAttributes = {
+					918097D721283E080002C5E1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					918097EB21283E0E0002C5E1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 918097D721283E080002C5E1;
+					};
+					918097F621283E0E0002C5E1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 918097D721283E080002C5E1;
+					};
+				};
+			};
+			buildConfigurationList = 918097D321283E080002C5E1 /* Build configuration list for PBXProject "PostViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918097CF21283E080002C5E1;
+			productRefGroup = 918097D921283E080002C5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918097D721283E080002C5E1 /* PostViewer */,
+				918097EB21283E0E0002C5E1 /* PostViewerTests */,
+				918097F621283E0E0002C5E1 /* PostViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918097D621283E080002C5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918097E621283E0D0002C5E1 /* LaunchScreen.storyboard in Resources */,
+				918097E321283E0D0002C5E1 /* Assets.xcassets in Resources */,
+				918097E121283E080002C5E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097EA21283E0E0002C5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097F521283E0E0002C5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918097D421283E080002C5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91809880212929AA0002C5E1 /* Reachability.swift in Sources */,
+				9180982E212840870002C5E1 /* PostListInteractor.swift in Sources */,
+				9180982221283F8A0002C5E1 /* PostListView.swift in Sources */,
+				91809851212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
+				9180988221292B3E0002C5E1 /* ReachabilityManager.swift in Sources */,
+				91809845212845810002C5E1 /* PostDetailPresenter.swift in Sources */,
+				91809860212854C90002C5E1 /* Post.swift in Sources */,
+				9180988A212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
+				9180982A212840120002C5E1 /* PostListProtocol.swift in Sources */,
+				9180981921283E990002C5E1 /* AppDelegate.swift in Sources */,
+				9180983D2128455E0002C5E1 /* PostDetailView.swift in Sources */,
+				9180982621283FF90002C5E1 /* PostListPresenter.swift in Sources */,
+				91809833212840EA0002C5E1 /* PostServices.swift in Sources */,
+				918098652128600B0002C5E1 /* BaseView.swift in Sources */,
+				918098412128456E0002C5E1 /* PostDetailWireframe.swift in Sources */,
+				9180984D2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097E821283E0E0002C5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9180987A21288AC00002C5E1 /* PostListInteractorMock.swift in Sources */,
+				9180982F212840870002C5E1 /* PostListInteractor.swift in Sources */,
+				9180986E21287B710002C5E1 /* PostDetailViewMock.swift in Sources */,
+				9180986C21287B040002C5E1 /* PostDetailWireframeMock.swift in Sources */,
+				918098422128456E0002C5E1 /* PostDetailWireframe.swift in Sources */,
+				918098762128897B0002C5E1 /* PostListViewMock.swift in Sources */,
+				9180987021287BB30002C5E1 /* PostDetailPresenterTest.swift in Sources */,
+				9180982721283FF90002C5E1 /* PostListPresenter.swift in Sources */,
+				91809834212840EA0002C5E1 /* PostServices.swift in Sources */,
+				91809861212854C90002C5E1 /* Post.swift in Sources */,
+				91809878212889F80002C5E1 /* PostListPresenterTest.swift in Sources */,
+				9180988321292EFB0002C5E1 /* ReachabilityManager.swift in Sources */,
+				9180983E2128455E0002C5E1 /* PostDetailView.swift in Sources */,
+				9180981A21283E990002C5E1 /* AppDelegate.swift in Sources */,
+				9180988421292F180002C5E1 /* Reachability.swift in Sources */,
+				9180988B212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
+				9180982321283F8A0002C5E1 /* PostListView.swift in Sources */,
+				91809872212887740002C5E1 /* XCTestExpectation+Convenience.swift in Sources */,
+				91809874212889420002C5E1 /* PostListWireframeMock.swift in Sources */,
+				91809846212845810002C5E1 /* PostDetailPresenter.swift in Sources */,
+				9180982B212840120002C5E1 /* PostListProtocol.swift in Sources */,
+				91809852212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
+				918098662128600B0002C5E1 /* BaseView.swift in Sources */,
+				9180984E2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */,
+				918097F121283E0E0002C5E1 /* PostViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918097F321283E0E0002C5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91809830212840870002C5E1 /* PostListInteractor.swift in Sources */,
+				918098432128456E0002C5E1 /* PostDetailWireframe.swift in Sources */,
+				9180988C212941EB0002C5E1 /* PostViewer.xcdatamodeld in Sources */,
+				9180982821283FF90002C5E1 /* PostListPresenter.swift in Sources */,
+				91809835212840EA0002C5E1 /* PostServices.swift in Sources */,
+				91809885212939770002C5E1 /* ReachabilityManager.swift in Sources */,
+				91809862212854C90002C5E1 /* Post.swift in Sources */,
+				9180983F2128455E0002C5E1 /* PostDetailView.swift in Sources */,
+				9180981B21283E990002C5E1 /* AppDelegate.swift in Sources */,
+				9180982421283F8A0002C5E1 /* PostListView.swift in Sources */,
+				91809847212845810002C5E1 /* PostDetailPresenter.swift in Sources */,
+				9180982C212840120002C5E1 /* PostListProtocol.swift in Sources */,
+				91809853212845BA0002C5E1 /* PostListWireframe.swift in Sources */,
+				918098672128600B0002C5E1 /* BaseView.swift in Sources */,
+				9180984F2128459E0002C5E1 /* PostDetailProtocol.swift in Sources */,
+				91809886212939820002C5E1 /* Reachability.swift in Sources */,
+				918097FC21283E0E0002C5E1 /* PostViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		918097EE21283E0E0002C5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918097D721283E080002C5E1 /* PostViewer */;
+			targetProxy = 918097ED21283E0E0002C5E1 /* PBXContainerItemProxy */;
+		};
+		918097F921283E0E0002C5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918097D721283E080002C5E1 /* PostViewer */;
+			targetProxy = 918097F821283E0E0002C5E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		918097DF21283E080002C5E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918097E021283E080002C5E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		918097E421283E0D0002C5E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918097E521283E0D0002C5E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918097FE21283E0E0002C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918097FF21283E0E0002C5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9180980121283E0E0002C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9180980221283E0E0002C5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9180980421283E0E0002C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostViewer.app/PostViewer";
+			};
+			name = Debug;
+		};
+		9180980521283E0E0002C5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostViewer.app/PostViewer";
+			};
+			name = Release;
+		};
+		9180980721283E0E0002C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostViewer;
+			};
+			name = Debug;
+		};
+		9180980821283E0E0002C5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9B7933BE3;
+				INFOPLIST_FILE = PostViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbirani.PostViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918097D321283E080002C5E1 /* Build configuration list for PBXProject "PostViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918097FE21283E0E0002C5E1 /* Debug */,
+				918097FF21283E0E0002C5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9180980021283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9180980121283E0E0002C5E1 /* Debug */,
+				9180980221283E0E0002C5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9180980321283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9180980421283E0E0002C5E1 /* Debug */,
+				9180980521283E0E0002C5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9180980621283E0E0002C5E1 /* Build configuration list for PBXNativeTarget "PostViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9180980721283E0E0002C5E1 /* Debug */,
+				9180980821283E0E0002C5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91809888212941EB0002C5E1 /* PostViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91809889212941EB0002C5E1 /* PostViewer.xcdatamodel */,
+			);
+			currentVersion = 91809889212941EB0002C5E1 /* PostViewer.xcdatamodel */;
+			path = PostViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 918097D021283E080002C5E1 /* Project object */;
+}
